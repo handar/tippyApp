@@ -50,7 +50,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="72"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
                                 <connections>
                                     <action selector="calcTip:" destination="BYZ-38-t0r" eventType="editingChanged" id="2FH-fO-nSf"/>
                                 </connections>
@@ -92,14 +92,9 @@
                         </connections>
                     </view>
                     <navigationItem key="navigationItem" title="Tippy" id="hXR-rf-W5z">
-                        <barButtonItem key="rightBarButtonItem" style="plain" id="ilf-AZ-mKa">
-                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="ddf-yg-Q8P">
-                                <rect key="frame" x="276" y="7" width="83" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Settings"/>
-                            </button>
+                        <barButtonItem key="rightBarButtonItem" title="Settings" id="VFg-wd-ucB">
                             <connections>
-                                <segue destination="BiQ-zh-z0p" kind="push" id="rXS-iV-HKb"/>
+                                <segue destination="K05-fQ-68E" kind="push" id="lbH-WZ-DEl"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
@@ -120,29 +115,29 @@
             <point key="canvasLocation" x="1076" y="133.5832083958021"/>
         </scene>
         <!--Settings View Controller-->
-        <scene sceneID="CrO-as-GOO">
+        <scene sceneID="SxL-t1-Ysc">
             <objects>
-                <viewController id="BiQ-zh-z0p" customClass="SettingsViewController" customModule="tippyApp" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="Kkn-zZ-wQe">
+                <viewController id="K05-fQ-68E" customClass="SettingsViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="efR-W4-G7k">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="New Features Coming Soon!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0fV-av-w8g">
-                                <rect key="frame" x="16" y="298" width="343" height="70"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="New Features Coming Soon!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dsm-so-b2u">
+                                <rect key="frame" x="16" y="323" width="343" height="37"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="28"/>
-                                <color key="textColor" red="0.19563099740000001" green="0.27547100190000001" blue="0.21836715940000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="27"/>
+                                <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <color key="backgroundColor" red="0.62881896110000002" green="0.86978966000000002" blue="0.69704936780000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <viewLayoutGuide key="safeArea" id="682-VD-mye"/>
+                        <viewLayoutGuide key="safeArea" id="Bbi-Lx-EjN"/>
                     </view>
-                    <navigationItem key="navigationItem" id="boD-vV-hRR"/>
+                    <navigationItem key="navigationItem" id="enf-wB-fnI"/>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="a69-gZ-7mU" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="OLr-5X-d4h" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1823.2" y="143.47826086956522"/>
+            <point key="canvasLocation" x="1727.2" y="139.880059970015"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="YEG-W4-ZDW">
