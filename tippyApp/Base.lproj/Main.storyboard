@@ -99,6 +99,7 @@
                     </navigationItem>
                     <connections>
                         <outlet property="billField" destination="J8r-Qp-7dT" id="0QC-th-vNC"/>
+                        <outlet property="tipControl" destination="WgI-VL-V7u" id="PQs-jC-6CS"/>
                         <outlet property="tipLabel" destination="9qT-pf-MbL" id="fYt-lU-n7w"/>
                         <outlet property="totalLabel" destination="9FU-ua-V05" id="C5u-Xu-z4J"/>
                     </connections>
