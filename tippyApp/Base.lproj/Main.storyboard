@@ -48,6 +48,9 @@
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="72"/>
                                 <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <action selector="calcTip:" destination="BYZ-38-t0r" eventType="editingChanged" id="2FH-fO-nSf"/>
+                                </connections>
                             </textField>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="xU8-R3-9zT">
                                 <rect key="frame" x="0.0" y="288" width="375" height="379"/>

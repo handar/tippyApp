@@ -20,5 +20,12 @@ class ViewController: UIViewController {
         view.endEditing(true)
     }
     
+    @IBAction func calcTip(_ sender: Any) {
+        
+        //Get the bill amount
+        //Calculate tip and total
+        //Update the tip and total labels
+    }
+    
 }
 
