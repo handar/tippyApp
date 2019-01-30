@@ -10,7 +10,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Tippy-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="tippyApp" customModuleProvider="target" sceneMemberID="viewController">
@@ -43,7 +43,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="$0.00" textAlignment="right" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="J8r-Qp-7dT">
-                                <rect key="frame" x="16" y="68" width="343" height="106"/>
+                                <rect key="frame" x="16" y="76" width="343" height="106"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="72"/>
@@ -61,7 +61,7 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="$0.00" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9FU-ua-V05">
-                                        <rect key="frame" x="75" y="10" width="292" height="70"/>
+                                        <rect key="frame" x="73" y="10" width="292" height="70"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="55"/>
                                         <color key="textColor" red="0.62881896110000002" green="0.86978966000000002" blue="0.69704936780000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -79,11 +79,28 @@
                             </view>
                         </subviews>
                         <color key="backgroundColor" red="0.62881896110000002" green="0.86978966000000002" blue="0.69704936780000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <gestureRecognizers/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="QdQ-fM-FZo" appends="YES" id="nht-yJ-Uah"/>
+                        </connections>
                     </view>
-                    <navigationItem key="navigationItem" id="hXR-rf-W5z"/>
+                    <navigationItem key="navigationItem" title="Tippy" id="hXR-rf-W5z">
+                        <barButtonItem key="rightBarButtonItem" style="plain" id="ilf-AZ-mKa">
+                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="ddf-yg-Q8P">
+                                <rect key="frame" x="276" y="7" width="83" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Settings"/>
+                            </button>
+                        </barButtonItem>
+                    </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="QdQ-fM-FZo">
+                    <connections>
+                        <action selector="onTap:" destination="BYZ-38-t0r" id="Z1D-31-MoS"/>
+                    </connections>
+                </tapGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="1076" y="133.5832083958021"/>
         </scene>
