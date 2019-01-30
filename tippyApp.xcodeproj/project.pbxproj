@@ -14,6 +14,7 @@
 		76850B43220177300082D9CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76850B41220177300082D9CC /* LaunchScreen.storyboard */; };
 		76850B4E220177310082D9CC /* tippyAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76850B4D220177310082D9CC /* tippyAppTests.swift */; };
 		76850B59220177310082D9CC /* tippyAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76850B58220177310082D9CC /* tippyAppUITests.swift */; };
+		7693978F2201824E00F8FC62 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7693978E2201824E00F8FC62 /* SettingsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		76850B54220177310082D9CC /* tippyAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tippyAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		76850B58220177310082D9CC /* tippyAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tippyAppUITests.swift; sourceTree = "<group>"; };
 		76850B5A220177310082D9CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7693978E2201824E00F8FC62 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 		76850B2C2201772F0082D9CC = {
 			isa = PBXGroup;
 			children = (
+				7693978E2201824E00F8FC62 /* SettingsViewController.swift */,
 				76850B372201772F0082D9CC /* tippyApp */,
 				76850B4C220177310082D9CC /* tippyAppTests */,
 				76850B57220177310082D9CC /* tippyAppUITests */,
@@ -258,6 +261,7 @@
 			files = (
 				76850B3B2201772F0082D9CC /* ViewController.swift in Sources */,
 				76850B392201772F0082D9CC /* AppDelegate.swift in Sources */,
+				7693978F2201824E00F8FC62 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
