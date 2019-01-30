@@ -27,6 +27,9 @@
                                     <segment title="20%"/>
                                 </segments>
                                 <color key="tintColor" red="0.19563099740000001" green="0.27547100190000001" blue="0.21836715940000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <connections>
+                                    <action selector="calcTip:" destination="BYZ-38-t0r" eventType="valueChanged" id="9Jy-kP-iEv"/>
+                                </connections>
                             </segmentedControl>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="+" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fNa-m2-dSe">
                                 <rect key="frame" x="16" y="248" width="17" height="32"/>
